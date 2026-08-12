@@ -10,12 +10,12 @@
 
 projects:
   # After setup: {username}-renderatl-workshop
-  - name: renderatl-workshop
+  - name: munadm-renderatl-workshop
     environments:
       - name: production
         services:
           - type: web
-            name: stock-research-agent-starter
+            name: munadm-stock-research-agent-starter
             runtime: node
             plan: starter
             buildCommand: npm install
